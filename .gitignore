@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter metadata
+*.nbconvert.ipynb
+
+#result files
+.csv
