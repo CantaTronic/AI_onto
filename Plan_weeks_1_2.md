@@ -4,7 +4,7 @@ This repository contains materials and scripts for the first 2 weeks of the NLP 
 
 ---
 
-## 🏁 Goal for First 2 Weeks
+## Goal for First 2 Weeks
 
 - Learn basic NLP preprocessing steps (tokenization, lemmatization, stopwords).
 - Apply vectorization and embeddings for semantic similarity.
@@ -14,11 +14,11 @@ This repository contains materials and scripts for the first 2 weeks of the NLP 
 
 ---
 
-## 🗓 Week 1 — Introduction to NLP & Text Preprocessing
+## Week 1 — Introduction to NLP & Text Preprocessing
 
 | Day | Topic                       | Tasks                                                                                           | Deliverable                          |
 | --- | --------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------- |
-| 1   | Introduction to NLP          | Install libraries (spaCy, NLTK, pandas, regex). Tokenization, lemmatization, stopwords.       | Notebook `Text_Preprocessing.ipynb` |
+| 1 [x] ✅ | Introduction to NLP          | Install libraries (spaCy, NLTK, pandas, regex). Tokenization, lemmatization, stopwords.       | Notebook `Text_Preprocessing.ipynb` |
 | 2   | Text Vectorization           | Learn TF-IDF and embeddings. Compare 5 abstracts by cosine similarity.                          | `semantic_similarity_demo.py`       |
 | 3   | Zero-shot Classification     | Use Hugging Face pipelines (facebook/bart-large-mnli) for classifying abstracts.               | Classification notebook              |
 | 4   | Integration with Crawler     | Process 10–20 abstracts: clean → tokenize → classify.                                           | Minimal classification pipeline      |
@@ -26,7 +26,7 @@ This repository contains materials and scripts for the first 2 weeks of the NLP 
 
 ---
 
-## 🗓 Week 2 — Named Entity Recognition & Knowledge Extraction
+## Week 2 — Named Entity Recognition & Knowledge Extraction
 
 | Day | Topic                            | Tasks                                                                                       | Deliverable                        |
 | --- | -------------------------------- | ------------------------------------------------------------------------------------------- | --------------------------------- |
@@ -38,7 +38,7 @@ This repository contains materials and scripts for the first 2 weeks of the NLP 
 
 ---
 
-## 💡 Work Format
+## Work Format
 
 - **Time per day:** 2–3 hours (1 h theory + 1–2 h practice)
 - **Workspace:** Jupyter / Colab + GitHub repository
@@ -47,9 +47,9 @@ This repository contains materials and scripts for the first 2 weeks of the NLP 
 
 ---
 
-## ✅ Expected Outcomes by End of Week 2
+## Expected Outcomes by End of Week 2
 
-- Tokenized, lemmatized, and preprocessed abstracts.  +
+- Tokenized, lemmatized, and preprocessed abstracts. [x] ✅
 - Vector representations for semantic similarity comparisons.
 - Basic zero-shot classification of abstracts.
 - Named entity extraction pipeline for scientific terms.
