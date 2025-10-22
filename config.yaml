@@ -1,0 +1,10 @@
+local:
+  DATA_PATH: "./data/sample.csv"
+  USE_GPU: false
+  EMBEDDING_MODEL: "all-MiniLM-L6-v2"
+
+prod:
+  DATA_PATH: null
+  USE_GPU: true
+  EMBEDDING_MODEL: "sentence-transformers/all-mpnet-base-v2"
+
