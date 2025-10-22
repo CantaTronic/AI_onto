@@ -8,6 +8,7 @@ __pycache__/
 # Virtual environments
 venv/
 env/
+.env
 
 # OS files
 .DS_Store
@@ -17,4 +18,12 @@ Thumbs.db
 *.nbconvert.ipynb
 
 #result files
-.csv
+*.csv
+*.json
+
+*.log
+
+Заметка_про_вирт_окружение.txt
+
+LSDF/
+info/

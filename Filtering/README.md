@@ -10,7 +10,7 @@ cd repo
 ## 2. Создаём виртуальное окружение:
 
 ```
-python -m venv env
+python3.12 -m venv env
 source env/bin/activate
 ```
 
