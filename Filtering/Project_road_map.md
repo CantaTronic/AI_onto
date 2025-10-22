@@ -25,12 +25,12 @@ This repository contains the roadmap and resources for a project focused on **pr
 **Key Skills & Tools:**
 
 - Text preprocessing: tokenization, lemmatization, stopwords (spaCy, NLTK, regex) [x] ✅
-- Vectorization: TF-IDF, embeddings (Sentence Transformers, HuggingFace)
-- Text classification: pretrained models, zero-shot classification
+- Vectorization: TF-IDF, embeddings (Sentence Transformers, HuggingFace) [x] ✅
+- Text classification: pretrained models, zero-shot classification [x] ✅
 
 **Expected Outcome:**
 
-- Preprocessed and vectorized abstracts
+- Preprocessed and vectorized abstracts 
 - Simple classifier for topic filtering
 
 ---
