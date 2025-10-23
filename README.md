@@ -62,16 +62,15 @@ deactivate
 
 ### 1. Создаём виртуальное окружение
 ```
-python3 -m venv env_prod
+python3.12 -m venv env_prod
 source env_prod/bin/activate
 ```
 
 ### 2. Устанавливаем зависимости
 ```
-pip-compile requirements_prod.in
-pip install -r requirements_prod.txt
+pip install -r requirements_prod.in
 ```
-`requirements_prod.txt` содержит полный набор библиотек для продакшн пайплайна: NLP, LLM, Qdrant, Mongo, GPU, scraping.
+`requirements_prod.in` содержит полный набор библиотек для продакшн пайплайна: NLP, LLM, Qdrant, Mongo, GPU, scraping.
 
 ### 3. Регистрируем Jupyter kernel
 ```
@@ -86,17 +85,13 @@ jupyter kernelspec list
 
 ### 5. Использование
 
-- Запускаем `Jupyter Notebook / Lab`.
+- Запускаем `Jupyter Notebook / Lab` через туннель `http://91.98.135.193:4888/user/vtokareva/lab`
 - Выбираем kernel Python `(nlp_prod)` для работы с большими данными, запуском LLM, Qdrant и Mongo.
 - Внутри ноутбука устанавливаем `ENV = "prod"` в первой ячейке с кодом.
 - Можно запускать полноценные скрипты и ноутбуки пайплайна с реальными данными.
 
 
 ### 6. По окончании работы
-Сохраняем актуальные зависимости
-
 ```
-pip freeze > requirements_prod.txt
 deactivate
 ```
-Файл `requirements_prod.txt` теперь зафиксирован с актуальными версиями всех библиотек.
