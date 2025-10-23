@@ -8,6 +8,8 @@ __pycache__/
 # Virtual environments
 venv/
 env/
+env_local/
+env_prod/
 .env
 
 # OS files
@@ -20,8 +22,10 @@ Thumbs.db
 #result files
 *.csv
 *.json
+*.txt
 
 *.log
+*.bak
 
 Заметка_про_вирт_окружение.txt
 

@@ -1,7 +1,7 @@
 local:
   DATA_PATH: "./data/sample.csv"
   USE_GPU: false
-  EMBEDDING_MODEL: "all-MiniLM-L6-v2"
+  EMBEDDING_MODEL: "sentence-transformers/all-MiniLM-L6-v2"
 
 prod:
   DATA_PATH: null

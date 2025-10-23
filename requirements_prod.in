@@ -1,0 +1,39 @@
+# === NLP & embeddings ===
+spacy
+transformers
+sentence-transformers
+umap-learn
+scikit-learn
+numpy
+pandas
+matplotlib
+tqdm
+
+# === Qdrant & Mongo ===
+qdrant-client
+pymongo
+
+# === Jupyter & interactive work ===
+ipykernel
+jupyter
+notebook
+ipython
+ipywidgets
+matplotlib-inline
+
+# === Scraping ===
+requests
+beautifulsoup4
+lxml
+soupsieve
+charset-normalizer
+certifi
+idna
+urllib3
+
+# === Environment/config management ===
+python-dotenv
+
+# === Optional utils ===
+pyyaml
+
