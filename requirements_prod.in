@@ -8,13 +8,16 @@ numpy
 pandas
 matplotlib
 tqdm
+spacy
+nltk
+
 
 # === Qdrant & Mongo ===
 qdrant-client
 pymongo
 
 # === Jupyter & interactive work ===
-ipykernel
+ipykernel==6.30.1
 jupyter
 notebook
 ipython
